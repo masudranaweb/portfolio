@@ -1,0 +1,209 @@
+/* width 991px start */
+@media(max-width: 991px){
+    .search_field {
+        left: 100%;
+    }
+    .nav_span span::after {
+        height: 2px;
+        width: 10%;
+        left: 50%;
+        top: 100%;
+    }
+    .photo_gallery{
+        width:100%;;
+        grid-template-columns: repeat(3,1fr);
+    }    
+    .recent_story_item {
+        min-height: 70vh;
+    }
+    .recent_story_item img{
+        height: 70vh;
+    }
+
+}
+
+
+@media(max-width: 767px){
+    .btns button {
+        font-size: 14px;
+        margin: 0px 40px;
+    }
+    .banner_title_1 h1 {
+        font-size: 30px;
+    }
+    .banner_title_2 h1 {
+        font-size: 30px;
+    }
+    .photo_gallery{
+        width:100%;;
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .top_content label {
+        font-size: 16px;
+        line-height: 0px;
+    }
+    .recent_story_item {
+        min-height: 60vh;
+    }
+    .recent_story_item img{
+        height: 60vh;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 575px){
+    .top_content {
+        width: 100%;
+    }
+    .top_content label {
+        font-size: 14px;
+        margin: 0 10px 0 0;
+        line-height: 20px;
+    }
+    .banner_carousel{
+        width: 96%;
+        margin:0;
+        margin:auto;
+        align-items: center;
+    }
+    .banner_title_2 h1 {
+        font-size: 25px;
+    }
+    .banner_title_2 h1 {
+        font-size: 25px;
+    }
+    .btns button {
+        font-size: 14px;
+        margin: 20px 10px;
+    }
+    .about_content {
+        margin: 50px 0 0 0;
+    }
+    .progress_bar {
+        box-shadow: 2px 2px 4px #b7b3b35c;
+    }
+    .recent_story_carousel .owl-dots .owl-dot{
+        height: 10px;
+        width: 10px;
+        margin:0 5px ;
+    }
+    .my_story_content h2{
+        font-size: 25px;
+        }
+    .animate_line h2 {
+        font-size: 25px;
+        margin: 20px 0 20px 0;
+    }
+    .my_story_p p {
+        margin: 15px 30px;
+    }
+    .contact_title.animate_line h2 {
+        font-size: 25px;
+        margin: 20px auto 20px auto;
+    }
+    .client_feedback_title.animate_line .span_1 span::before {
+        top: 81%;
+    }
+    .client_feedback_title.animate_line .span_2 span::before {
+        top: 80%;
+    }
+    .latest_tweet_title.animate_line .span_2 span::before {
+        top: 81%;
+    }
+    .contact_title.animate_line .span_2 span::before {
+        top: 30.5%;
+    }
+    .social {
+        min-height: 35vh;
+    }
+    .social_title.animate_line .span_2 span::before {
+        top: 70%;
+    }
+    .social_title.animate_line .span_1 span::before {
+        top: 71%;
+    }
+    .social_items {
+        min-height: 20vh;
+    }
+    .social_items ul li {
+        margin: 10px;
+    }
+}
+
+
+@media(max-width: 430px){
+    .btns button {
+        font-size: 14px;
+        margin: 20px 15px 20px 0;
+    }
+    .about_me {
+        min-height: 80vh;
+        margin: 0 !important;
+    }
+    .about_img {
+        height: 80vh;
+    }
+    .animate_line h2 {
+        font-size: 25px;
+        margin: 0px 0 10px 0;
+    }
+    .animate_line .span_1 span::before {
+        top: 83%;
+    }
+    .client_feedback_title.animate_line h2 {
+        font-size: 25px;
+        margin: 20px 0 10px 0;
+    }
+    .photo_gallery{
+    width:100%;
+    grid-template-columns: repeat(1,1fr);
+    } 
+    .my_story_content h2{
+    font-size: 20px;
+    }
+    header {
+        min-height: 80vh;
+    }
+    .banner_height {
+        min-height: 70vh;
+    }
+    .banner_section {
+        min-height: 70vh;
+    }
+    .banner_section {
+        min-height: 70vh;
+    }
+    .about_img img {
+        height: 70vh;
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+    .about_content {
+        margin:0;
+    }
+    .contact .contact_p p {
+        width: 100%;
+    }
+    .my_story_content.animate_line .span_1 span::before {
+        top: 104%;
+    }
+    .client_feedback_title.animate_line .span_1 span::before {
+        top: 82%;
+    }
+    .social_title.animate_line .span_2 span::before {
+        top: 68%;
+    }
+    
+}
+
+
+
+
+
+
+
+/* width 991px end */
